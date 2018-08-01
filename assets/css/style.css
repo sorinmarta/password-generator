@@ -1,0 +1,66 @@
+body{
+    background-color: #bfbfbf;
+}
+
+*{
+    font-family: 'Istok Web', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: #dddddd;
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 23px 51px -12px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 14px 23px 51px -12px rgba(0, 0, 0, 0.5);
+    box-shadow: 14px 23px 51px -12px rgba(0, 0, 0, 0.5);
+}
+
+.container-title{
+    text-align: center;
+}
+
+.generate-pass-btn{
+    background-color:#04304b;
+    border: 2px solid #04304b;
+    color: #fff;
+    padding:10px;
+    font-size:30px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.generate-pass-btn:hover{
+    background-color: transparent;
+    color: #04304b;
+    transition: 0.3s;
+}
+
+.generate-pass-btn:focus{
+    outline: none;
+}
+
+.generated-password{
+    text-align: center;
+    font-size:30px;
+    border: 2px solid #04304b;
+}
+
+.footer-text{
+    text-align: center;
+}
+
+.footer-link{
+    color: #04304b;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #04304b;
+    text-decoration:underline;
+}
